@@ -1,0 +1,6 @@
+CREATE TABLE Users (
+    UserId INT PRIMARY KEY IDENTITY(1,1),
+    UserName NVARCHAR(255) NOT NULL,
+    Password NVARCHAR(255) NOT NULL,
+    IsApproved BIT NOT NULL
+);

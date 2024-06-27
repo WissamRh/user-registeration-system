@@ -1,0 +1,5 @@
+CREATE TABLE Admins (
+    AdminId INT PRIMARY KEY IDENTITY(1,1),
+    UserName NVARCHAR(255) NOT NULL,
+    Password NVARCHAR(255) NOT NULL
+);
